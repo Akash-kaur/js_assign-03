@@ -1,0 +1,19 @@
+CLOSURE
+A Local variable is re-created every-time,whenever a function is called.
+But when the function call,which created a Local variable, is inactive, then they defines a function, 
+wrapvalue by which they were created. The ability to access a variable in an enclosing function is called Closure.
+Reference :- http://eloquentjavascript.net/03_functions.html
+
+In other words, In Javascript, Objects and functions are also considered as variables.
+A Function scope consists of different objects, functions or variables programmer have access to.
+Some variables are declared inside the function called aas Local variables and they have local scope and accessed 
+within the function only.
+Global variables are declared outside the function as compared to local variables and have globale scope.
+Global variables can become  Local variables with the help of Closure.
+By using Jvascript Closure programmer can access the variable outside the function or even after the function is closed.
+Reference :- http://www.w3schools.com/js/js_function_closures.asp
+
+According to other research, when functions are declared inside the functions forming a chain of Lexical environment they are
+known as Nested Functions . These functions can be accessed after the outer function is finished oroutside the Parent Scope.
+Lexical Environmet stays in memory and can be changed and accessed.This process is called as Closure.
+Referance :- http://javascript.info/tutorial/closures
